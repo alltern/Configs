@@ -1,0 +1,4 @@
+export ELECTRON_OZONE_PLATFORM_HINT=auto
+export EGL_PLATFORM=wayland
+export SDL_VIDEODRIVER=wayland
+export CLUTTER_BACKEND=wayland
