@@ -6,6 +6,13 @@
                 "matches": "Hyprland"
             },
             "profile": "Limit free buffer pool on Wayland compositors"
+        },
+        {
+            "pattern": {
+                "feature": "procname",
+                "matches": "niri"
+            },
+            "profile": "Limit free buffer pool on Wayland compositors"
         }
     ],
     "profiles": [

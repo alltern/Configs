@@ -1,0 +1,120 @@
+{
+    "rules": [
+        {
+            "pattern": {
+                "feature": "procname",
+                "matches": "Proton Pass"
+            },
+            "profile": "No Vidmem Reuse"
+        },
+        {
+            "pattern": {
+                "feature": "procname",
+                "matches": "Proton Mail"
+            },
+            "profile": "No Vidmem Reuse"
+        },
+        {
+            "pattern": {
+                "feature": "procname",
+                "matches": "vesktop"
+            },
+            "profile": "No Vidmem Reuse"
+        },
+        {
+            "pattern": {
+                "feature": "procname",
+                "matches": "equibop"
+            },
+            "profile": "No Vidmem Reuse"
+        },
+        {
+            "pattern": {
+                "feature": "procname",
+                "matches": "discord"
+            },
+            "profile": "No Vidmem Reuse"
+        },
+        {
+            "pattern": {
+                "feature": "procname",
+                "matches": "DiscordCanary"
+            },
+            "profile": "No Vidmem Reuse"
+        },
+        {
+            "pattern": {
+                "feature": "procname",
+                "matches": "spotify"
+            },
+            "profile": "No Vidmem Reuse"
+        },
+        {
+            "pattern": {
+                "feature": "procname",
+                "matches": "chromium"
+            },
+            "profile": "No Vidmem Reuse"
+        },
+        {
+            "pattern": {
+                "feature": "procname",
+                "matches": "chrome"
+            },
+            "profile": "No Vidmem Reuse"
+        },
+        {
+            "pattern": {
+                "feature": "procname",
+                "matches": "ghostty"
+            },
+            "profile": "No Vidmem Reuse"
+        },
+        {
+            "pattern": {
+                "feature": "procname",
+                "matches": "webcord"
+            },
+            "profile": "No Vidmem Reuse"
+        },
+        {
+            "pattern": {
+                "feature": "procname",
+                "matches": "brave"
+            },
+            "profile": "No Vidmem Reuse"
+        },
+        {
+            "pattern": {
+                "feature": "procname",
+                "matches": "firefox"
+            },
+            "profile": "No Vidmem Reuse"
+        },
+        {
+            "pattern": {
+                "feature": "procname",
+                "matches": "alacritty"
+            },
+            "profile": "No Vidmem Reuse"
+        },
+        {
+            "pattern": {
+                "feature": "procname",
+                "matches": "konsole"
+            },
+            "profile": "No Vidmem Reuse"
+        }
+    ],
+    "profiles": [
+        {
+            "name": "No Vidmem Reuse",
+            "settings": [
+                {
+                    "key": "GLVidHeapReuseRatio",
+                    "value": 0
+                }
+            ]
+        }
+    ]
+}
