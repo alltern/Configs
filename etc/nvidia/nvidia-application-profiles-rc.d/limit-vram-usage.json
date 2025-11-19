@@ -7,6 +7,7 @@
                     { "feature": "procname", "matches": "Proton Pass" },
                     { "feature": "procname", "matches": "Proton Mail" },
                     { "feature": "procname", "matches": "vesktop" },
+                    { "feature": "procname", "matches": "equibop" },
                     { "feature": "procname", "matches": "discord" },
                     { "feature": "procname", "matches": "DiscordCanary" },
                     { "feature": "procname", "matches": "spotify" },
