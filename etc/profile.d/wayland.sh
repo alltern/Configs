@@ -1,6 +1,5 @@
 export OZONE_PLATFORM=wayland
 export ELECTRON_OZONE_PLATFORM_HINT=wayland
-export EGL_PLATFORM=wayland
 export SDL_VIDEODRIVER=wayland
 export CLUTTER_BACKEND=wayland
 export GDK_BACKEND=wayland,x11,*
@@ -8,3 +7,4 @@ export XDG_SESSION_TYPE=wayland
 export QT_QPA_PLATFORM='wayland;xcb'
 export MOZ_ENABLE_WAYLAND=1
 #export PROTON_ENABLE_WAYLAND=1
+#export EGL_PLATFORM=wayland
