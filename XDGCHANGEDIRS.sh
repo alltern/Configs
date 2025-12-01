@@ -1,3 +1,5 @@
+#!/bin/bash
+
 DIR=$1 
 
 APP=$2
