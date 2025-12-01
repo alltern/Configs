@@ -4,6 +4,11 @@ APP=$2
 
 mkdir $DIR
 
+cur=$(pwd)
+cd $DIR
+DIR=$(pwd)
+cd $cur
+
 mkdir $DIR/.cache
 mkdir $DIR/.config
 mkdir $DIR/.local
@@ -29,9 +34,6 @@ export XDG_DATA_HOME=$DIR/.local/share
 export XDG_STATE_HOME=$DIR/.local/state
 export XDG_BIN_HOME=$DIR/.local/bin
 export XDG_RUNTIME_DIR=$DIR/run/user/$UID
-
-#Enable the below to also change the non-home directories.
-
 #export XDG_DATA_DIRS='$DIR/usr/local/share:$DIR/usr/share'
 #export XDG_CONFIG_DIRS=$DIR/etc/xdg
 exec $APP
