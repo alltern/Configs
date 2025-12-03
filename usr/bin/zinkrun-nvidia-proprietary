@@ -1,0 +1,6 @@
+export __GLX_VENDOR_LIBRARY_NAME=mesa 
+export __EGL_VENDOR_LIBRARY_FILENAMES=/usr/share/glvnd/egl_vendor.d/50_mesa.json 
+export MESA_LOADER_DRIVER_OVERRIDE=zink 
+export GALLIUM_DRIVER=zink 
+export LIBGL_KOPPER_DRI2=1 
+exec "$@"
