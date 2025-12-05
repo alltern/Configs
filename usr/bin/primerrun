@@ -1,6 +1,6 @@
 #!/bin/bash
-#export GBM_BACKEND=nvidia-drm
-#export VDPAU_DRIVER=nvidia
+export GBM_BACKEND=nvidia-drm
+export WLR_NO_HARDWARE_CURSORS=1
 export __GLX_VENDOR_LIBRARY_NAME=nvidia
 export __NV_PRIME_RENDER_OFFLOAD=1
 export __VK_LAYER_NV_optimus=NVIDIA_only
@@ -11,6 +11,9 @@ export NVD_BACKEND=direct
 
 #UNCOMMENT BELOW if you use WINE with DXVK-NVAPI
 #export DXVK_ENABLE_NVAPI=1
+
+#Uncomment below if you use VDPAU
+#export VDPAU_DRIVER=nvidia
 
 echo "RUNNING $@"
 exec "$@"
