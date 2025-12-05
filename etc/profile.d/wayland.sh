@@ -6,5 +6,5 @@ export GDK_BACKEND=wayland,x11,*
 export XDG_SESSION_TYPE=wayland
 export QT_QPA_PLATFORM='wayland;xcb'
 export MOZ_ENABLE_WAYLAND=1
-#export PROTON_ENABLE_WAYLAND=1
-#export EGL_PLATFORM=wayland
+export PROTON_ENABLE_WAYLAND=1
+export EGL_PLATFORM=wayland
